@@ -13,7 +13,7 @@ Pod::Spec.new do |s|
   s.source           = { :git => 'https://github.com/kiendv-prox/MediationAds.git', :tag => s.version.to_s }
 
   s.platform         = :ios, '14.0'
-  s.swift_versions   = '5.3', '5.4', '5.5', '5.6', '5.7', '5.8', '5.9', '5.10', '6.0']
+  s.swift_versions   = ['5.3', '5.4', '5.5', '5.6', '5.7', '5.8', '5.9', '5.10', '6.0']
   s.source_files     = 'Sources/MediationAds/**/*.swift'
 
   # Dependency with version pinning
