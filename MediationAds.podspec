@@ -20,22 +20,19 @@ Pod::Spec.new do |s|
         '5.3', '5.4', '5.5', '5.6', '5.7', '5.8', '5.9', '5.10', '6.0'
     ]
     s.source_files     = [
-        'Sources/MediationAds/API/**/*.swift'
-        'Sources/MediationAds/Base/**/*.swift'
-        'Sources/MediationAds/Extensions/**/*.swift'
-        'Sources/MediationAds/Managers/**/*.swift'
-                
-        'Sources/MediationAds/Models/Ad/**/*.swift'
-        'Sources/MediationAds/Models/AppConfig/**/*.swift'
-        'Sources/MediationAds/Models/ConsentConfig/**/*.swift'
-        'Sources/MediationAds/Models/Release/**/*.swift'
-        
-        'Sources/MediationAds/Supports/**/*.swift'
-        'Sources/MediationAds/Supports/Ad/AdMob/Ads/**/*.swift'
+        'Sources/MediationAds/API/**/*.swift',
+        'Sources/MediationAds/Base/**/*.swift',
+        'Sources/MediationAds/Extensions/**/*.swift',
+        'Sources/MediationAds/Managers/**/*.swift',
+        'Sources/MediationAds/Models/Ad/**/*.swift',
+        'Sources/MediationAds/Models/AppConfig/**/*.swift',
+        'Sources/MediationAds/Models/ConsentConfig/**/*.swift',
+        'Sources/MediationAds/Models/Release/**/*.swift',
+        'Sources/MediationAds/Supports/**/*.swift',
+        'Sources/MediationAds/Supports/Ad/AdMob/Ads/**/*.swift',
+        'Sources/MediationAds/Supports/Ad/AdMob/AdView/**/*.swift',
+        'Sources/MediationAds/Supports/Ad/Max/Ads/**/*.swift',
         'Sources/MediationAds/Supports/Ad/AdMob/AdView/**/*.swift'
-        'Sources/MediationAds/Supports/Ad/Max/Ads/**/*.swift'
-        'Sources/MediationAds/Supports/Ad/AdMob/AdView/**/*.swift'
-        
     ]
 
     # Dependency with version pinning
