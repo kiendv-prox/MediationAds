@@ -7,8 +7,8 @@
 
 import UIKit
 
-public class AdManager {
-  public static var shared = AdManager()
+public class AdManager: @unchecked Sendable {
+    public static var shared = AdManager()
   
   enum Keys {
     static let cache = "AD_CACHE"

@@ -14,7 +14,7 @@ import PurchaseConnector
 import StoreKit
 import AppsFlyerAdRevenue
 
-public class TrackingManager: NSObject {
+public class TrackingManager: NSObject, @unchecked Sendable {
     public static let shared = TrackingManager()
     
     public func debug(enable: Bool) {

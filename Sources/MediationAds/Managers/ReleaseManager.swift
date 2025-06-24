@@ -9,7 +9,7 @@ import Foundation
 import Combine
 import SwiftJWT
 
-public class ReleaseManager {
+public class ReleaseManager: @unchecked Sendable {
     public static let shared = ReleaseManager()
     
     public struct ReleaseConfig {

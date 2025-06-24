@@ -8,7 +8,7 @@
 import Foundation
 import AVFoundation
 
-class TimeManager {
+class TimeManager: @unchecked Sendable {
   static let shared = TimeManager()
   
   private var startTimes: [String: CFTimeInterval] = [:]

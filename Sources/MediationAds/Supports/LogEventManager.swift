@@ -8,7 +8,7 @@
 import Foundation
 import FirebaseAnalytics
 
-class LogEventManager {
+class LogEventManager: @unchecked Sendable {
   static let shared = LogEventManager()
   
   private var isWarning = false

@@ -7,7 +7,7 @@
 
 import Foundation
 
-class FrequencyManager {
+class FrequencyManager: @unchecked Sendable {
   static let shared = FrequencyManager()
   
   enum Keys {

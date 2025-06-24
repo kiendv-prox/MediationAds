@@ -9,7 +9,7 @@ import Foundation
 import Combine
 import FirebaseRemoteConfig
 
-public class RemoteManager {
+public class RemoteManager: @unchecked Sendable {
   public static let shared = RemoteManager()
   
   public enum State: String {

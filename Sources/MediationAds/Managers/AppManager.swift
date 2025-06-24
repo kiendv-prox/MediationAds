@@ -13,7 +13,7 @@ import GoogleMobileAds
 import AppLovinSDK
 import FBAudienceNetwork
 
-public class AppManager: ObservableObject {
+public class AppManager: @unchecked Sendable {
     public static let shared = AppManager()
     
     public enum State {

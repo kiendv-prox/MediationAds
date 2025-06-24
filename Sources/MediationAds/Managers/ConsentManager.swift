@@ -15,7 +15,7 @@ import FBAudienceNetwork
 import VungleAdsSDK
 import IASDKCore
 
-public class ConsentManager {
+public class ConsentManager: @unchecked Sendable {
     public static let shared = ConsentManager()
     
     enum Keys {

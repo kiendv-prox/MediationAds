@@ -8,7 +8,7 @@
 import Combine
 import SystemConfiguration
 
-public class NetworkManager {
+public class NetworkManager: @unchecked Sendable {
     public static let shared = NetworkManager()
     
     private let networkStatusSubject = PassthroughSubject<Bool, Never>()
