@@ -55,5 +55,6 @@ Pod::Spec.new do |s|
     s.dependency 'PurchaseConnector', '6.17.0'
     s.dependency 'AppsFlyer-AdRevenue', '6.9.1'
     s.dependency 'SwiftJWT', '3.6.200'
+    s.dependency 'SnapKit', '5.7.1'
 
 end
