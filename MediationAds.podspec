@@ -37,5 +37,6 @@ Pod::Spec.new do |s|
     s.dependency 'FirebaseCrashlytics'
     s.dependency 'AppsFlyerFramework', '6.17.0'
     s.dependency 'PurchaseConnector', '6.17.0'
+    s.dependency 'SwiftJWT', '4.0.1'
 
 end
