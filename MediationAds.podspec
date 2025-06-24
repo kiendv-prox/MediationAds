@@ -3,10 +3,10 @@ Pod::Spec.new do |s|
     s.version          = '1.0.0'
     s.summary          = 'A lightweight Swift package for ad mediation with multiple ad networks.'
     s.description      = <<-DESC
-MediationAds provides a unified interface to manage ad mediation across multiple ad networks,
-including AppLovin MAX (13.3.1), Google AdMob, Meta Audience Network, and Unity Ads.
-It simplifies ad integration using a modular Swift-based structure.
-DESC
+    MediationAds provides a unified interface to manage ad mediation across multiple ad networks,
+    including AppLovin MAX (13.3.1), Google AdMob, Meta Audience Network, and Unity Ads.
+    It simplifies ad integration using a modular Swift-based structure.
+    DESC
     s.homepage         = 'https://github.com/kiendv-prox/MediationAds'
     s.license          = { :type => 'MIT', :file => 'LICENSE' }
     s.author           = { 'KienDV' => 'kiendv@proxglobal.com' }
@@ -14,7 +14,10 @@ DESC
 
     s.platform         = :ios, '14.0'
     s.swift_versions   = ['5.3', '5.4', '5.5', '5.6', '5.7', '5.8', '5.9', '5.10', '6.0']
-    s.source_files     = 'Sources/MediationAds/Managers/**/*.{swift}'
+    s.source_files     = [
+        'Sources/MediationAds/Managers/**/*.swift',
+        'Sources/MediationAds/Models/AppConfig/**/*.swift'
+    ]
 
     # Dependency with version pinning
     s.dependency 'AppLovinSDK', '13.3.1'
