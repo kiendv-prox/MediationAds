@@ -13,7 +13,7 @@ let package = Package(
             targets: ["MediationAds"]),
     ],
     dependencies: [
-        .package(url: "https://github.com/firebase/firebase-ios-sdk", revision: "11.14.0"),
+        .package(url: "https://github.com/firebase/firebase-ios-sdk", revision: "11.13.0"),
         .package(url: "https://github.com/AppsFlyerSDK/AppsFlyerFramework", revision: "6.17.0"),
         .package(url: "https://github.com/AppsFlyerSDK/appsflyer-apple-purchase-connector", revision: "6.16.2"),
         .package(url: "https://github.com/Kitura/Swift-JWT", revision: "3.6.201")
